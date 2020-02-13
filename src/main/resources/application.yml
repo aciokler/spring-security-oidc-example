@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration: 
+          google: 
+            client-id: 
+            client-secret: 
+            scope: openid, profile, email
+            client-name: Goooooogle
+logging:
+  level:
+    org.springframework.web.client.RestTemplate: DEBUG
